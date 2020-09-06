@@ -3,8 +3,8 @@ Advanced Software Architecture - iCare System Project
 
 Db.txt
 
-#First create a Mysql DB user with uname= root & password= root
-#copy paste the below DB queries (might chnage, just an init commit)
+### First create a Mysql DB user with uname= root & password= root
+### Copy paste the below DB queries (might change, just an init commit)
 
 
 CREATE USER 'iCareRoot'@'localhost' IDENTIFIED BY 'root';
@@ -22,7 +22,7 @@ PatientDao.jsp
 ---------------------------------------------------
 
 
--Make sure you create the Db with the following SQl Queries only.
+Make sure you create the Db with the following SQL Queries only.
 
 CREATE DATABASE iCare;
 USE iCare;
